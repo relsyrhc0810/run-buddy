@@ -44,6 +44,7 @@ header nav ul li a {
     font-size: 22px;
 }
 
+/* Start of Footer*/
 footer {
     background: #fce138;
     width: 100%;
@@ -66,6 +67,7 @@ footer div {
 footer a {
     color: #024e76;
 }
+/*end of footer*/
 
 /* Hero Style Start */
 .hero {
@@ -125,15 +127,21 @@ footer a {
   text-align: center;
 }
 
-.intro h2 {
+.section-title {
   font-size: 55px;
   color: #024e76;
   margin-bottom: 35px;
   padding: 0 100px 20px 100px;
-  border-bottom: 3px solid;
-  border-color: #fce138;
-  /* add this alongside your other declarations */
   display: inline-block;
+  border-bottom: 3px solid;
+}
+
+.primary-border {
+  border-color: #fce138;
+}
+
+.secondary-border {
+  border-color: #39a6b2;
 }
 
 .intro p {
@@ -142,4 +150,33 @@ footer a {
   width: 80%;
   font-size: 20px;
   margin: 0 auto;
+}
+
+.steps {
+  text-align: center;
+  background: #fce138;
+}
+
+.steps div {
+  margin-bottom: 80px;
+}
+
+.steps img {
+  width: 15%;
+  margin: 10px 0;
+}
+
+.steps h3 {
+  color: #024e76;
+  font-size: 46px;
+  margin-top: 10px;
+}
+
+.steps p {
+  color: #39a6b2;
+  font-size: 23px;
+}
+
+.steps span {
+  font-size: 38px;
 }
