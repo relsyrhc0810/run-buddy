@@ -95,7 +95,7 @@ footer div {
 }
 
 footer a {
-    color: #024e76;
+    color: var(--secondary-color);
 }
 /*end of footer*/
 
